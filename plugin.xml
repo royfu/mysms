@@ -4,6 +4,8 @@
     version="1.0.2">
 
     <name>SmsSendingPlugin</name>
+
+    <description>SmsSendingPlugin</description>
 <!-- a single file, to be copied in the root directory -->
 <asset src="www/SmsSendingPlugin.js" target="SmsSendingPlugin.js" />
 <platform name="android">
