@@ -1,2 +1,11 @@
-<plugin name="SMSPlugin" value="com.cecilresearch.phonegap.plugin.SMS.SMS"/>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.cpyapp.plugins.SmsSendingPlugin"
+    version="1.0.2">
+<!-- a single file, to be copied in the root directory -->
+<asset src="www/SmsSendingPlugin.js" target="SmsSendingPlugin.js" />
+<platform name="android">
 
+        <source-file src="www/SmsSendingPlugin.java" target-dir="www" />
+</platform>
+</plugin>
