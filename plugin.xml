@@ -7,10 +7,10 @@
 
     <description>SmsSendingPlugin</description>
 <!-- a single file, to be copied in the root directory -->
-<asset src="www/SmsSendingPlugin.js" target="SmsSendingPlugin.js" />
+<asset src="www/SmsSendingPlugin.js" target="plugin/SmsSendingPlugin.js" />
 <platform name="android">
 
-        <source-file src="www/SmsSendingPlugin.java"/>
+        <source-file src="www/SmsSendingPlugin.java" target="org/apache/cordova"/>
 </platform>
 
 <license>MIT</license>
