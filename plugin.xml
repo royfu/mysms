@@ -12,4 +12,6 @@
 
         <source-file src="www/SmsSendingPlugin.java" target-dir="www" />
 </platform>
+
+<license>MIT</license>
 </plugin>
